@@ -1,0 +1,39 @@
+html, body{margin:0px;padding:0px; height:100%; }
+body { background:#F4FDD6 !important; font:0.75em arial,sans-serif; color:#505050; }
+table { border-collapse: collapse; border:none;}
+table, table td { padding: 0px; margin: 0px; }
+
+#lbox { width:337px; background:url('/modules/admin/styles/images/login_bg.gif') top left repeat-y; }
+.lbox_bottom { width:337px; background:url('/modules/admin/styles/images/login_bo.gif') bottom left no-repeat; }
+.lbox_top { width:337px; background:url('/modules/admin/styles/images/login_to.gif') top left no-repeat; }
+.lbox_cont { padding:20px 34px; }
+
+#lbox h2 { padding-top:0px; padding-bottom:15px; }
+#lbox .profile_edit { padding-top:0px; }
+
+#lbox { text-align:left; }
+#lbox div.lb { margin-bottom:9px; padding:3px 5px 5px 5px; border:1px solid #d8d8d8; }
+#lbox input { width:100%; border:0px; background:transparent; }
+#lbox label { display:block; margin:0px 10px 10px 0px; }
+#lbox .submit{ height:36px;margin-top:-2px;~margin:0px;padding:0px;width:100px; }
+#lbox .wrongpass { position:relative; z-index:1; left:-15px; top:0px; width:282px; padding:0px 0px 7px 15px; margin:0px 0px 15px 0px; background:url('http://pc-mail.ru/images/int/wrongpass_bg.gif') bottom left no-repeat; }
+
+h1 { display:inline; font-size:16pt; color:#f84e72; font-weight:normal; }
+h2 { margin:0px; font-size:11pt;font-weight:bold; color:#f84e72; padding-top:24px; }
+h3 { margin:0px; font-size:9pt; color:#f84e72; padding-top:13px; color:#4e4e4e; }
+h1 a, h2 a, h3 a { color:inherit; //color:expression(this.parentNode.currentStyle["color"]); text-decoration:none; }
+div.headertwo { position:relative; z-index:1000; top:0px; left:0px; }
+div.headertwo h2 { color:#fff; position:relative; z-index:1; top:1px; left:0px; }
+div.headertwo h2.headertwo_dark { color:#f84e72; position:absolute; z-index:2; top:0px; left:0px; }
+
+
+.profile_edit, .profile_edit input { font-weight:bold; white-space:nowrap; padding-top:30px; font-size:12px; position:relative; z-index:1; margin-left:-2px; }
+.profile_edit_left { float:left; background:url('/modules/admin/styles/images/profile_.gif') top left no-repeat; }
+.profile_edit_right { float:left; background:url('/modules/admin/styles/images/profile0.gif') top right no-repeat; }
+.profile_edit_bg { float:left; background:url('/modules/admin/styles/images/profile1.gif') top left repeat-x; }
+.profile_edit a { float:left; color:#505050; text-decoration:none; display:block; height:16px; padding:10px 18px 10px 18px; }
+
+.float { float:left; }
+.floatr { float:right; }
+.floatc { float:center; }
+.float_none { float:none !important; }

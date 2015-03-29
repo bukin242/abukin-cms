@@ -1,0 +1,50 @@
+html, body  { height:100%; text-align:center; background-color:#F4FDD6; }
+body{ padding-top:100px; padding-left:50px; padding-right:50px; padding-bottom:50px; }
+#main{ width:100%; height:100%; text-align:left; }
+#admin { width:100%; height:100%; }
+#admin td{ height:100%; padding:0px; }
+#admin th a{  color:#5B5B5B; font-size:12px; font-family:Verdana; }
+#admin .menu{ width:200px; height:100%; padding-right:10px; }
+#admin .bg{ height:100%; background-color:#ffffff; border:1px solid #D2DAC2; color:#5B5B5B; font-size:12px; font-family:Verdana; line-height:1.5; padding:10px; }
+#admin .bg h1, #admin .bg h1 a{ padding:0px; padding-bottom:10px; margin:0px; font-size:20px; font-weight:bold; font-family:Arial; font-weight:normal; }
+#admin .left h1{ color:#89BA17; padding-left:8px; }
+#admin .content h1, #admin .content h1 a, #admin .content h2{ color:#227CCC; }
+#admin .content h1 a{ padding:0px; }
+#admin .content h2{ padding-top:20px; padding-bottom:0px; padding-right:0px; padding-left:0px; margin:0px; margin-bottom:-20px; font-size:20px; font-weight:bold; font-family:Arial; font-weight:normal;  }
+#admin a{ font-family:Tahoma; color:#336666; }
+#admin a:hover, #admin .content h1 a:hover{ color:#E53B16; }
+#admin .left a.modules{ font-weight:bold; display:block; padding-bottom:8px; padding-top:8px; padding-left:8px; border-top:1px solid #CFDDAD; }
+#admin .left a.modules:hover{ font-weight:bold; display:block; padding-bottom:8px; padding-top:8px; padding-left:8px; border-top:1px solid #CFDDAD; background-color:#eeeeee; }
+#admin .left h1 a{ font-weight:normal; font-size:10px; padding:0px; margin:0px; margin-top:-2px; background-color:none; border-top:none; }
+#admin .admin_menu{ width:100%; background-color:#94C02F; color:#ffffff; text-align:center; padding-top:2px; padding-left:0px; padding-bottom:3px; padding-right:0px; }
+#admin .admin_menu a{ color:#ffffff; padding-left:8px; padding-right:8px; padding-top:2px; padding-bottom:2px; }
+#admin .admin_menu a:hover{ color:#ffffff; background-color:#B5D46F; padding-left:8px; padding-right:8px; padding-top:2px; padding-bottom:2px; }
+#admin .admin_menu a.active{ color:#94C02F; background-color:#FFFFFF; padding-left:8px; padding-right:8px; padding-top:2px; padding-bottom:2px; text-decoration:none; }
+#admin .admin_menu a.nav{ text-decoration:none; }
+#admin .content table{ width:100%; }
+#admin .spaw2 table{ width:auto; }
+#admin .content th, #admin .content td{ padding:5px; }
+#admin .spaw2 th, #admin .spaw2 td{ padding:0px; }
+#admin table[rel]{ margin-top:30px; border:1px solid #E9F2E0; }
+#admin table th[rel]{ text-align:left; border-bottom:1px solid #FFFFFF; }
+#admin .content th{ background-color:#E9F2E0; }
+#admin .spaw2 th{ background-color:transparent; }
+#admin table td[rel]{ border-top:1px solid #E9F2E0; border-bottom:1px solid #E9F2E0; }
+#admin table a{ text-decoration:none; border-bottom:1px dotted #336666; }
+#admin table a:hover{ text-decoration:none; border-bottom:1px dotted #E53B16; }
+#admin table.form td[rel]{ width:90%; text-align:left; }
+#admin table.form th[rel]{ width:10%; text-align:left; white-space:nowrap; }
+#admin table.form textarea { height:400px; }
+#admin form table textarea, form table input, form table select{ border:1px solid #94C02F; width:100%; font-size:10pt; }
+#admin input.submit, #admin .checkbox input{ border:none; width:auto; }
+#admin form input.submit{ padding:0px 8px 2px 8px; cursor:pointer; background-color:#E9F2E0; }
+#admin form input.submit:hover{ background-color:#E9F2E0; background-color:#94C02F; color:#ffffff; }
+#admin form .type_checkbox input{ margin:0px; border:none; }
+#admin table th[rel]#id, #admin table th[rel].checkbox, #admin table th[rel].datetime, #admin table th[rel]#edit{ width:1%; }
+#admin .spaw2 select{ width:auto; border:2px inset #FFFFFF; }
+#admin .spaw2 textarea{ border:none; }
+#admin .type_ord, #admin #ord, #admin .type_ord input{ text-align:center; width:50px; }
+#admin .form .checkbox{ width:auto; }
+#admin .table .type_checkbox{ text-align:center; }
+#admin .table .type_datetime{ white-space:nowrap; }
+#admin .table tr:hover{ background-color: #eeeeee; }

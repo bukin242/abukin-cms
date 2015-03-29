@@ -1,0 +1,26 @@
+ErrorDocument 403 /
+ErrorDocument 404 /err404.php
+ErrorDocument 405 /
+
+# Включаем mod_rewrite
+RewriteEngine on
+Options +FollowSymlinks -Indexes
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www\.([^.]+\.ru)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_URI} !^.*\.{1}.+$ [NC]
+# если нет на конце слеша то добавляем и делаем редирект
+RewriteRule ^(.+[^/])$ http://%{HTTP_HOST}/$1/ [L,R=301]
+
+# access #
+RewriteRule ^functions\/.*\.php$ - [F]
+RewriteRule ^template.php$ - [F]
+RewriteRule ^_.php$ - [F]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .*  /index.php

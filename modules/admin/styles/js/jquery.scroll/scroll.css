@@ -1,0 +1,19 @@
+/* scroll page */
+body {
+	background-color: transparent;
+}
+		
+.scroll-to-top-button{
+	background: url(Upload.png) center center no-repeat;
+	width: 22px;
+	height: 30px;
+	color: #fff;
+	font-family: verdana;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	cursor: pointer;
+	padding: 5px;
+	margin: 0px;
+}
