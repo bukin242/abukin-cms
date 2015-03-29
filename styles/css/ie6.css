@@ -1,0 +1,9 @@
+#wrap_main, #footer   {min-width: 1003px;max-width: 1400px;width:expression((document.compatMode && document.compatMode == 'CSS1Compat') ? (document.documentElement.clientWidth < 1003 ? "1003px" : (document.documentElement.clientWidth > 1400 ? "1400px" : "auto")) : (document.body.clientWidth < 1003 ? "1003px" : (document.body.clientWidth > 1400 ? "1400px" : "auto")))}
+#wrap_main{height:100%; overflow:visible; }
+#main{position:static; height: auto;}
+.colmask{ float:none;}
+.colleft {float:none;}
+.col1wraper {float:left}
+
+
+

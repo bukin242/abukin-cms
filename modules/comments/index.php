@@ -76,7 +76,6 @@ _forms(
     _input('Имя', '*', 'name', 'text').
     _input('E-mail', '', 'email', 'email').
     _input('Отзыв', '*', 'text', 'textarea').
-    _input('Перетащите или кликните на правильную фигуру', '*', 'captcha', 'captcha').
     _input('', '', 'submit', 'submit', 'Отправить', '_comment_add();')
 );
 

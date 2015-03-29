@@ -1,0 +1,107 @@
+@media screen {
+html {font-size:100.01%}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,stike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,td,th,hr{ font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif}
+textarea,input,select, option{font-family:Arial,sans-serif}
+h1, h2, h3, h4, h5, h6, b, strong{font-weight: bolder}
+i, cite, em, var, address{font-style:italic}
+pre, tt, code, kbd, samp{font-family: monospace}
+body{line-height:1.12}
+small, sub, sup{font-size: .83em}
+big{font-size: 1.17em}
+abbr, acronym{font-variant:small-caps; letter-spacing: 0.1em}
+
+/* Настройка двунаправленности */
+BDO[DIR="ltr"]{direction:ltr; unicode-bidi:bidi-override}
+BDO[DIR="rtl"]{direction:rtl; unicode-bidi:bidi-override}
+*[DIR="ltr"]{direction:ltr; unicode-bidi:embed}
+*[DIR="rtl"]{direction:rtl; unicode-bidi:embed}
+
+
+}
+
+
+*{}
+
+@media handheld {
+body{ color:#333; background-color:#fafafa;font-size:62.5%}
+html {font-size:100.01%}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,stike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,td,th,hr{ font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;line-height:1.12}
+body{margin:.5em}
+small{font-size:.85em}
+h1{font-size:2em}
+h2{font-size:1.8em}
+h3{font-size:1.6em}
+h4{font-size:1.4em}
+h5{font-size:1.2em}
+h6{font-size:1em}
+p,li{font-size:1em}
+}
+
+
+*{}
+
+
+
+
+@media print  {
+body{ color:#000; background-color:#fff}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,stike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,td,th,hr{font-family: 'Times New Roman', Times, serif;line-height:1.12}
+dfn,i,cite,var,address,em, big{font-style:normal}
+th,b,strong,h1,h2,h3,h4,h5,h6{font-weight:normal}
+small{font-size:12pt}
+h1{font-size:24pt}
+h2{font-size:22pt}
+h3{font-size:20pt}
+h4{font-size:18pt}
+h5{font-size:16pt}
+h6{font-size:14pt}
+p,li{font-size:14pt}
+a{text-decoration:none}
+
+
+h1{page-break-before:always}
+h1, h2, h3, h4, h5, h6{page-break-after:avoid}
+ul, ol, dl{page-break-before:avoid}
+}
+
+
+@media projection{
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,stike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,td,th,hr{ font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;line-height:1.12}
+textarea,input,select, option{font-family:Arial,sans-serif;font-size:1em}
+small{font-size:.85em}
+h1{font-size:2em}
+h2{font-size:1.8em}
+h3{font-size:1.6em}
+h4{font-size:1.4em}
+h5{font-size:1.2em}
+h6{font-size:1em}
+p,li{font-size:1em}
+
+h1{position:fixed; top: .5em; right: .5em; font-size:80%}
+h2{page-break-before:always}
+ul{page-break-after:always}
+ul ul{page-break-after:auto}
+}
+
+@media aural{
+h1, h2, h3, h4, h5, h6{voice-family: paul, male; stress:20; richness:90}
+h1{pitch:x-low; pitch-range:90}
+h2{pitch:x-low; pitch-range:80}
+h3{pitch:low; pitch-range:70}
+h4{pitch:medium; pitch-range:60}
+h5{pitch:medium; pitch-range:50}
+h6{pitch:medium; pitch-range:40}
+li, dt, dd{pitch:medium; richness:60}
+dt{stress:80}
+pre, code, tt{pitch:medium; pitch-range:0; stress:0; richness:80}
+em{pitch:medium; pitch-range:60; stress:60; richness:50}
+strong{pitch: medium; pitch-range:60; stress:90; richness:90}
+dfn{pitch:high; pitch-range:60; stress:60}
+s, strike{richness:0}
+i{pitch:medium; pitch-range:60; stress:60; richness:50}
+b{pitch:medium; pitch-range:60; stress:90; richness:90}
+u{richness:0}
+a:link{voice-family:harry, male}
+a:visited{voice-family:betty, female}
+a:active{voice-family:betty, female; pitch-range:80; pitch:x-high}
+}
